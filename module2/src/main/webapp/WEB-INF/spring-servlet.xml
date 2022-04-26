@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:spring-configured/>
+
+<!--    <bean id="contentNegotiationManager"-->
+<!--          class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">-->
+<!--        &lt;!&ndash;<property name="favorPathExtension" value="false" />&ndash;&gt;-->
+<!--        &lt;!&ndash;<property name="favorParameter" value="true" />&ndash;&gt;-->
+<!--        &lt;!&ndash;<property name="parameterName" value="mediaType" />&ndash;&gt;-->
+<!--        <property name="ignoreAcceptHeader" value="true"/>-->
+<!--        <property name="useJaf" value="false"/>-->
+<!--        <property name="defaultContentType" value="application/json"/>-->
+
+<!--        &lt;!&ndash;<property name="mediaTypes">&ndash;&gt;-->
+<!--        &lt;!&ndash;<map>&ndash;&gt;-->
+<!--        &lt;!&ndash;<entry key="json" value="application/json" />&ndash;&gt;-->
+<!--        &lt;!&ndash;<entry key="xml" value="application/xml" />&ndash;&gt;-->
+<!--        &lt;!&ndash;<entry key="html" value="text/html" />&ndash;&gt;-->
+<!--        &lt;!&ndash;</map>&ndash;&gt;-->
+<!--        &lt;!&ndash;</property>&ndash;&gt;-->
+<!--    </bean>-->
+<!--    <mvc:annotation-driven content-negotiation-manager="contentNegotiationManager"/>-->
+
+
+</beans>
